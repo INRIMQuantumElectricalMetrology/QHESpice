@@ -1,6 +1,10 @@
 # QHESpice
 SPICE macromodels for quantum Hall effect devices [1]
 ## Files
+- `qhe8cw.sub`: SPICE macromodel for a clockwise QHE element (no contact resistances);
+- `qhe8ccw.sub`: SPICE macromodel for a counterclockwise QHE element (no contact resistances);
+- `qhe8cw_contacts.sub`: SPICE macromodel for a clockwise QHE element (with contact resistances);
+- `qhe8ccw_contacts.sub`: SPICE macromodel for a counterclockwise QHE element (with contact resistances);
 - `qhe8cw.asy`: LTspice schematic editor symbol for a clockwise QHE element;
 - `qhe8ccw.asy`: LTspice schematic editor symbol for a counterclockwise QHE element;
 ## References
