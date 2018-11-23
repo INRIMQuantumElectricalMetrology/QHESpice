@@ -1,5 +1,7 @@
 # QHESpice
-SPICE macromodels for quantum Hall effect devices [1] (default Hall resistance `RH = 1`).
+SPICE macromodels for quantum Hall effect devices [1].
+## Remark
+The default Hall resistance parameter `RH` is currently set to 1 Ω.
 ## Files
 - `qhe8cw.sub`: SPICE macromodel for a clockwise QHE element (8 terminals, no contact resistances);
 - `qhe8ccw.sub`: SPICE macromodel for a counterclockwise QHE element (8 terminals, no contact resistances);
